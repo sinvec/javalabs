@@ -195,6 +195,6 @@ public class MyLinkedList {
         } else {
             result = String.valueOf(curNode.value) + " " + this.toStringRec(curNode.next);
         }
-        return result.substring(0, result.length() - 1);
+        return result;
     }
 }
